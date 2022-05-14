@@ -1,0 +1,54 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+body {
+  font-family: Roboto;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+span {
+  color: var(--accent-color);
+}
+
+.sity-nav .link {
+  color: var(--title-text-color);
+}
+.sity-nav .link:hover,
+.sity-nav .link:focus {
+  color: var(--accent-color);
+}
+.sity-nav .link.current {
+  color: var(--accent-color);
+}
+.link {
+  color: var(--primary-text-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.cap-main {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.section .title {
+  color: var(--title-text-color);
+}
+.section .name {
+  color: var(--title-text-color);
+}
+.button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.list .title {
+  color: var(--title-text-color);
+}
